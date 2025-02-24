@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+Mahshid
+>>>>>>> 6fa9dba (Update File)
 ## Latest updates -- SAM 2: Segment Anything in Images and Videos
 
 Please check out our new release on [**Segment Anything Model 2 (SAM 2)**](https://github.com/facebookresearch/segment-anything-2).
@@ -181,3 +185,10 @@ If you use SAM or SA-1B in your research, please use the following BibTeX entry.
   year={2023}
 }
 ```
+<<<<<<< HEAD
+=======
+To run the SAM model, I also faced the following challenges and solved them with the following solutions.
+Challenge 1: The need for high computational resources, which requires powerful hardware (GPU with high memory) to run the SAM model, and the solution I used: I used Quantization to reduce the size of the model and run it on weaker hardware such as Windows Core i7. I also used the implementation of the ONNX or TensorRT version to optimize performance. I also used cloud services such as Google Colab Pro or AWS to run the model.
+Challenge 2: I also obtained low accuracy in segmenting small and compact objects, for which I used pre-processing models such as Super-Resolution to improve the quality of the input images. However, I still obtained low accuracy, so I tried to use better specialized models such as DeepLabV3+ to improve the segmentation accuracy.
+
+>>>>>>> 6fa9dba (Update File)
